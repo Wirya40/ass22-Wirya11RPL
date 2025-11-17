@@ -6,7 +6,7 @@ const { Title, Paragraph } = Typography;
 const { Content } = Layout;
 
 export default function TabsCollapsePage() {
-  // Collapse items (new syntax)
+  
   const collapseItems = [
     {
       key: "1",
@@ -28,7 +28,7 @@ export default function TabsCollapsePage() {
     },
   ];
 
-  // Tabs items (new syntax)
+  
   const tabItems = [
     {
       key: "1",
@@ -69,7 +69,7 @@ export default function TabsCollapsePage() {
           Tabs and Collapse Example
         </Title>
 
-        {/* Tabs using new Ant Design syntax */}
+       
         <Tabs defaultActiveKey="1" centered items={tabItems} />
       </Content>
     </Layout>
